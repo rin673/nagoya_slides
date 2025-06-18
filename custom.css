@@ -1,10 +1,12 @@
 body {
     font-family: 'Noto Sans JP', 'Yu Gothic', sans-serif;
+    background: linear-gradient(135deg, #f9fafb, #ffffff);
 }
 
 .reveal h1, .reveal h2, .reveal h3, .reveal h4 {
     color: #1e3a8a;
     font-weight: 700;
+    font-family: 'Merriweather', serif;
 }
 
 .reveal h1 {
@@ -18,6 +20,7 @@ body {
 .reveal h3 {
     font-size: 1.5em;
     color: #dc2626;
+    font-family: 'Merriweather', serif;
 }
 
 .reveal section img {
@@ -25,9 +28,6 @@ body {
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.reveal section img {
     animation: fadeIn 0.5s ease-in-out;
 }
 
