@@ -27,6 +27,21 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.reveal section img {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .reveal ul {
     display: block;
     margin-left: 1em;
@@ -56,6 +71,12 @@ body {
     margin-bottom: 10px;
 }
 
+.food-grid div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
 .reveal .slides section {
     top: 50%;
 }
@@ -66,4 +87,9 @@ body {
 
 .reveal .controls {
     color: #1e3a8a;
+}
+
+.reveal .progress,
+.reveal .controls {
+    opacity: 0.9;
 }
